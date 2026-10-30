@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Firdous - Authentic Hyderabadi Restaurant",
+  "description": "Authentic Hyderabadi Dum Biryani, Tala Hua Gosht, 5 AM Dawn Paya & Nihari Breakfast, and Irani Chai at Chaderghat, Azampura, Malakpet, Hyderabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
