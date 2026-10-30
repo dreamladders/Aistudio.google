@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Firdous;Hotel;;;
+FN:Hotel Firdous (హోటల్ ఫిర్దౌస్)
+ORG:Hotel Firdous Hyderabadi Restaurant
+TEL;TYPE=WORK,VOICE:+919391176439
+ADR;TYPE=WORK:;;Shop No. 16-7-383/3, Sahifa Masjid Rd, Near Sahifa Masjid, Azampura, Malakpet, Chaderghat;Hyderabad;Telangana;500024;India
+GEO:17.3789;78.4902
+NOTE:Authentic Hyderabadi Dum Biryani, Tala Hua Gosht, and 5 AM Dawn Paya Breakfast since 2002.
+CATEGORIES:Restaurant,Hyderabadi Food,Cafe
+END:VCARD

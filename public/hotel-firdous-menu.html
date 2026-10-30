@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel Firdous - Official Menu & Contact Card</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f0e0c; color: #f5f3ef; margin: 0; padding: 30px; }
+    .card { max-width: 800px; margin: auto; background: #171410; border: 2px solid #b45309; border-radius: 12px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    h1 { margin: 0; color: #fbbf24; font-size: 28px; }
+    .sub { color: #d97706; margin-top: 4px; font-size: 14px; font-weight: bold; }
+    .meta { font-size: 13px; color: #a8a29e; border-bottom: 1px solid #382d20; padding-bottom: 15px; margin-bottom: 20px; }
+    .section-title { color: #f59e0b; border-bottom: 1px solid #78350f; padding-bottom: 5px; margin-top: 25px; font-size: 18px; text-transform: uppercase; letter-spacing: 1px; }
+    .menu-item { display: flex; justify-content: space-between; margin-bottom: 12px; padding: 6px 0; border-bottom: 1px dashed #292117; }
+    .item-name { font-weight: 600; color: #fafaf9; }
+    .item-desc { font-size: 12px; color: #a8a29e; margin-top: 2px; }
+    .item-price { font-weight: bold; color: #fbbf24; font-size: 15px; }
+    .footer { margin-top: 30px; text-align: center; font-size: 12px; color: #78716c; border-top: 1px solid #382d20; padding-top: 15px; }
+    .print-btn { background: #f59e0b; color: #000; border: none; padding: 10px 20px; font-weight: bold; border-radius: 6px; cursor: pointer; margin-bottom: 20px; }
+    @media print { .print-btn { display: none; } body { background: #fff; color: #000; } .card { border: 1px solid #000; background: #fff; box-shadow: none; color: #000; } h1, .sub, .section-title, .item-price { color: #000; } .item-name { color: #000; } .item-desc, .meta { color: #333; } }
+  </style>
+</head>
+<body>
+  <div style="text-align: center;">
+    <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  </div>
+  <div class="card">
+    <h1>Hotel Firdous (హోటల్ ఫిర్దౌస్ / ہوٹل فردوس)</h1>
+    <div class="sub">Authentic Hyderabadi Cuisine & 5 AM Paya Breakfast · Est. 2002</div>
+    <div class="meta">
+      <p>📍 Shop No. 16-7-383/3, Sahifa Masjid Rd, Near Sahifa Masjid, Azampura, Malakpet, Hyderabad, Telangana 500024</p>
+      <p>📞 Phone: 093911 76439 / +91 93911 76439 | 🌐 Plus Code: 9FGR+MR Hyderabad</p>
+      <p>⏰ Hours: 5:00 AM – 11:30 PM Daily (Breakfast: 5:00 AM - 10:30 AM)</p>
+    </div>
+
+    <div class="section-title">5 AM Dawn Breakfast Specials</div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Hyderabadi Paya Soup with Char Koni Naan</div>
+        <div class="item-desc">Slow-simmered overnight sheep trotters in rich potli broth with fresh tandoor naan</div>
+      </div>
+      <div class="item-price">₹180</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Nalli Nihari (Marrow Shank Stew)</div>
+        <div class="item-desc">Tender mutton shank stew with rich bone marrow and warm roti</div>
+      </div>
+      <div class="item-price">₹240</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Authentic Khichdi Khatta Kheema</div>
+        <div class="item-desc">Yellow moong dal rice, tangy sesame-tamarind soup, and spicy minced mutton fry</div>
+      </div>
+      <div class="item-price">₹190</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Royal Hyderabadi Marag</div>
+        <div class="item-desc">Rich mutton broth with cashew-pistachio paste and cream</div>
+      </div>
+      <div class="item-price">₹190</div>
+    </div>
+
+    <div class="section-title">Dum Biryani & Specialties</div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Special Hyderabadi Mutton Dum Biryani</div>
+        <div class="item-desc">Aged long-grain basmati, saffron, desi ghee, Mirchi Ka Salan & Dahi Ki Chutney</div>
+      </div>
+      <div class="item-price">₹290 (Full) / ₹680 (Handi)</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Firdous Signature Tala Hua Gosht</div>
+        <div class="item-desc">Crispy fried mutton chunks tossed with curry leaves, black pepper & roasted spices</div>
+      </div>
+      <div class="item-price">₹260</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Hyderabadi Chicken Dum Biryani</div>
+        <div class="item-desc">Juicy chicken dum cooked with saffron basmati rice</div>
+      </div>
+      <div class="item-price">₹220</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Chicken 65 (Red Spicy Hyderabad Style)</div>
+        <div class="item-desc">Crispy boneless chicken bites with curd, mustard seeds and curry leaves</div>
+      </div>
+      <div class="item-price">₹210</div>
+    </div>
+
+    <div class="section-title">Irani Chai & Royal Desserts</div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Kadak Irani Dum Chai + 2 Osmania Biscuits</div>
+        <div class="item-desc">Thick caramelized buffalo milk tea with sweet & salty biscuits</div>
+      </div>
+      <div class="item-price">₹35</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Mutton Lukhmi (2 Pcs)</div>
+        <div class="item-desc">Flaky crispy pastry filled with spiced minced meat</div>
+      </div>
+      <div class="item-price">₹50</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Qubani Ka Meetha with Fresh Malai</div>
+        <div class="item-desc">Slow-stewed dried apricots with clotted cream</div>
+      </div>
+      <div class="item-price">₹110</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Shahi Double Ka Meetha</div>
+        <div class="item-desc">Ghee-fried milk bread soaked in saffron rabri</div>
+      </div>
+      <div class="item-price">₹90</div>
+    </div>
+
+    <div class="footer">
+      Order & Catering Hotline: 093911 76439 | Near Kachiguda Station (1.2 km) & Sahifa Masjid, Azampura, Malakpet
+    </div>
+  </div>
+</body>
+</html>
